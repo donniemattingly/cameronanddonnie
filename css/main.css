@@ -1,0 +1,47 @@
+body {
+    background: url("../static/images/holding-hands.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.cdNavbar{
+    position:absolute;
+    width: 50%;
+    padding-top: 0%;
+    margin-left: 25%;
+    padding-bottom: 4px;
+    text-align: center;
+    justify-content: center;
+
+    font-family: Futura, Sans-Serif;
+    color: rgb(48, 67, 82);
+
+    background-color: rgba(255, 255, 255, .7)
+}
+
+.cdNavbar h1{
+    margin-top: 5px;
+    font-size: 4em;
+    margin-bottom: 2px;
+
+}
+
+.cdNavbarDescription p{
+    display: inline;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.cdNavbarItems h3{
+    font-family: Museo-Slab, Sans-Serif;
+    border-radius: 4px;
+    display: inline;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.cdNavbarItems h3:hover{
+    color: rgba(48, 67, 82, .7);
+}
